@@ -34,6 +34,26 @@ Ademas de proveer una via rápida para la instalación del entorno de herramient
 
 ## Desarrollo
 
+Para ejecutar el proyecto se debe ejecutar los siguientes comandos en la carpeta raíz
+
+Primero instalar paquetes externos con:
+
+```bash
+go mod tidy
+```
+
+Compilar el proyecto:
+
+```bash
+go build main.go
+```
+
+E Instalar:
+
+```bash
+go install
+```
+
 ## Propuesta de flujo de uso
 
 ### 1. Verificación
@@ -118,4 +138,9 @@ no estoy seguro de como manejar esto
 
 Este proyecto propone solucionar una problemática real ademas de servir como medio de aprendizaje de aplicaciones en GO.
 
-Cualquier recomendación o mejora es bienvenida!i
+Cualquier recomendación o mejora es bienvenida!
+
+## Recursos
+
+- [AVD Manager](https://developer.android.com/studio/run/managing-avds)
+- [Android command-line tools](https://developer.android.com/tools)
